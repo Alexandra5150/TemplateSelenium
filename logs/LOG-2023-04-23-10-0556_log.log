@@ -1,0 +1,26 @@
+10:05:56.194 [TestNG-tests-1] INFO  utils.Log - Browser parameter is : FIREFOX
+10:05:56.194 [TestNG-tests-2] INFO  utils.Log - Browser parameter is : EDGE
+10:05:57.787 [TestNG-tests-2] INFO  utils.Log - EDGE =--> Thread.id = 25
+10:05:59.319 [TestNG-tests-1] INFO  utils.Log - Firefox =--> Thread.id = 24
+10:06:00.921 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+10:06:00.921 [TestNG-tests-2] INFO  utils.Log - Started test :LoginTest - validLoginTest
+10:06:00.921 [TestNG-tests-2] INFO  utils.Log - LoginTest
+10:06:00.921 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+10:06:00.922 [TestNG-tests-2] INFO  utils.Log - Start time :2023.04.23.10.06.00
+10:06:00.924 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+10:06:01.498 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+10:06:01.498 [TestNG-tests-2] INFO  utils.Log - Passed test :validLoginTest
+10:06:01.498 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+10:06:01.499 [TestNG-tests-2] INFO  utils.Log - End time :2023.04.23.10.06.01
+10:06:01.499 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+10:06:01.869 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+10:06:01.869 [TestNG-tests-1] INFO  utils.Log - Started test :LoginTest - validLoginTest
+10:06:01.869 [TestNG-tests-1] INFO  utils.Log - LoginTest
+10:06:01.869 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+10:06:01.870 [TestNG-tests-1] INFO  utils.Log - Start time :2023.04.23.10.06.01
+10:06:01.870 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+10:06:02.700 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+10:06:02.700 [TestNG-tests-1] INFO  utils.Log - Passed test :validLoginTest
+10:06:02.700 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+10:06:02.701 [TestNG-tests-1] INFO  utils.Log - End time :2023.04.23.10.06.02
+10:06:02.701 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++

@@ -1,0 +1,14 @@
+21:30:59.565 [main] INFO  utils.Log - Browser parameter is : EDGE
+21:31:02.203 [main] INFO  utils.Log - EDGE =--> Thread.id = 1
+21:31:06.139 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:31:06.140 [main] INFO  utils.Log - Started test :Curs17Exercitiu2 - curs17Exercitiu2
+21:31:06.140 [main] INFO  utils.Log - Curs17Exercitiu2
+21:31:06.141 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:31:06.142 [main] INFO  utils.Log - Start time :2023.04.23.21.31.06
+21:31:06.143 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:31:07.196 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+21:31:07.196 [main] ERROR utils.Log - Failed test :curs17Exercitiu2
+21:31:07.199 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+21:31:07.199 [main] ERROR utils.Log - Failed time :2023.04.23.21.31.07
+21:31:07.201 [main] ERROR utils.Log - java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+21:31:07.201 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++

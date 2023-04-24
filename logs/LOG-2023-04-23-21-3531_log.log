@@ -1,0 +1,14 @@
+21:35:31.503 [main] INFO  utils.Log - Browser parameter is : EDGE
+21:35:35.830 [main] INFO  utils.Log - EDGE =--> Thread.id = 1
+21:35:39.577 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:35:39.578 [main] INFO  utils.Log - Started test :Curs17Exercitiu2 - curs17Exercitiu2
+21:35:39.578 [main] INFO  utils.Log - Curs17Exercitiu2
+21:35:39.579 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:35:39.581 [main] INFO  utils.Log - Start time :2023.04.23.21.35.39
+21:35:39.581 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:35:40.638 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+21:35:40.639 [main] ERROR utils.Log - Failed test :curs17Exercitiu2
+21:35:40.645 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+21:35:40.645 [main] ERROR utils.Log - Failed time :2023.04.23.21.35.40
+21:35:40.647 [main] ERROR utils.Log - java.lang.AssertionError: expected [https://keyfood.ro/2021/05/03/but-i-must-explain-to-you-how-all-this-mistaken-idea/] but found [https://keyfood.ro/blog/]
+21:35:40.648 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
