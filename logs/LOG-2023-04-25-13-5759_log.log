@@ -1,0 +1,23 @@
+13:57:59.987 [main] INFO  utils.Log - Browser parameter is : EDGE
+13:58:01.579 [main] INFO  utils.Log - EDGE =--> Thread.id = 1
+13:58:04.202 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+13:58:04.203 [main] INFO  utils.Log - Started test :Curs17Exercitiu1 - curs17Exercitiu2
+13:58:04.203 [main] INFO  utils.Log - Curs17Exercitiu1
+13:58:04.203 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+13:58:04.204 [main] INFO  utils.Log - Start time :2023.04.25.13.58.04
+13:58:04.204 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+13:58:11.676 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+13:58:11.676 [main] ERROR utils.Log - Failed test :curs17Exercitiu2
+13:58:11.677 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+13:58:11.677 [main] ERROR utils.Log - Failed time :2023.04.25.13.58.11
+13:58:11.678 [main] ERROR utils.Log - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: MicrosoftEdge=112.0.1722.58)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [3e8ebb6aff6b5f84be5a4cbaae3d6caa, clickElement {id=7fbaa540-366d-4501-b901-1746a65bbf77}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 112.0.1722.58, ms:edgeOptions: {debuggerAddress: localhost:63187}, msedge: {msedgedriverVersion: 112.0.1722.58 (4dc3f55bfaec..., userDataDir: C:\Users\alexa\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63187/devtoo..., se:cdpVersion: 112.0.1722.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (3e8ebb6aff6b5f84be5a4cbaae3d6caa)] -> xpath: //input[@name="terms"]]
+Session ID: 3e8ebb6aff6b5f84be5a4cbaae3d6caa
+13:58:11.678 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++

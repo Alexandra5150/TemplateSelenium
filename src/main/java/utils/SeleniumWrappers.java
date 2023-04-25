@@ -44,7 +44,7 @@ public class SeleniumWrappers {
 		action.moveToElement(element).perform();		
 	}
 	
-	public boolean somethingIsDisplayed (By locator) {
+	public boolean elementIsDisplayed (By locator) {
 		return driver.findElement(locator).isDisplayed();
 	}
 	

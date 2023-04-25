@@ -9,6 +9,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -24,10 +25,10 @@ public class Curs17Exercitiu2 extends BaseTest {
 		
 		app.click(app.menu.blogLink);
 		
-		assertTrue(app.blog.somethingIsDisplayed(app.blog.blogPost1));
-		assertTrue(app.blog.somethingIsDisplayed(app.blog.blogPost2));
-		assertTrue(app.blog.somethingIsDisplayed(app.blog.blogPost3));
-		assertTrue(app.blog.somethingIsDisplayed(app.blog.blogPost4));
+		assertTrue(app.blog.elementIsDisplayed(app.blog.blogPost1));
+		assertTrue(app.blog.elementIsDisplayed(app.blog.blogPost2));
+		assertTrue(app.blog.elementIsDisplayed(app.blog.blogPost3));
+		assertTrue(app.blog.elementIsDisplayed(app.blog.blogPost4));
 		
 //		app.click(app.blog.blogPost1);
 //		app.click(app.blog.blogPost2);
@@ -55,18 +56,21 @@ public class Curs17Exercitiu2 extends BaseTest {
 //            driver.switchTo().window(browserTabs.get(1));
             
             assertEquals(driver.getCurrentUrl(),expectedURLS[i]);
-          
-//    		Actions action = new Actions(driver);
-//    		action
-//    			.moveToElement(app.post.comment)
-//    			.sendKeys(app.post.comment, "text text text")
-//    			.sendKeys(Keys.TAB, "abc")
-//    			.sendKeys(Keys.TAB, "abc@abc.com")
-//    			.sendKeys(Keys.TAB, "https://abc.abc")
-//    			.click(app.post.postCommentButton)			
-//    			.perform();
             
-    		assertTrue(app.post.somethingIsDisplayed(app.post.postAwaitingModeration));
+            WebElement comment = driver.findElement(app.post.comment);
+            WebElement postCommentButton = driver.findElement(app.post.postCommentButton);
+          
+    		Actions action = new Actions(driver);
+    		action
+    			.moveToElement(comment)
+    			.sendKeys(comment, "text text text")
+    			.sendKeys(Keys.TAB, "abc")
+    			.sendKeys(Keys.TAB, "abc@abc.com")
+    			.sendKeys(Keys.TAB, "https://abc.abc")
+    			.click(postCommentButton)			
+    			.perform();
+            
+    		assertTrue(app.post.elementIsDisplayed(app.post.postAwaitingModeration));
     		
             app.click(app.menu.blogLink); 
 

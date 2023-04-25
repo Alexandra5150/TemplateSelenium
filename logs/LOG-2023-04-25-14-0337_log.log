@@ -1,0 +1,16 @@
+14:03:37.462 [main] INFO  utils.Log - Browser parameter is : EDGE
+14:03:39.229 [main] INFO  utils.Log - EDGE =--> Thread.id = 1
+14:03:41.929 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+14:03:41.929 [main] INFO  utils.Log - Started test :Curs17Exercitiu1 - curs17Exercitiu2
+14:03:41.929 [main] INFO  utils.Log - Curs17Exercitiu1
+14:03:41.929 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+14:03:41.930 [main] INFO  utils.Log - Start time :2023.04.25.14.03.41
+14:03:41.930 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+14:03:41.934 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+14:03:41.934 [main] ERROR utils.Log - Failed test :curs17Exercitiu2
+14:03:41.934 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+14:03:41.935 [main] ERROR utils.Log - Failed time :2023.04.25.14.03.41
+14:03:41.935 [main] ERROR utils.Log - java.lang.Error: Unresolved compilation problem: 
+	The method isSelected() is undefined for the type By
+
+14:03:41.935 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++

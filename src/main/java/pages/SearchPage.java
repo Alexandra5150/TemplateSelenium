@@ -15,7 +15,7 @@ public class SearchPage extends SeleniumWrappers {
 	
 	
 	public By searchField = By.xpath("//input[@type=\"search\"]");
-	public By pretzelBook = By.xpath("");
+	public By pretzelBook = By.xpath("//span[@class=\"dgwt-wcas-st-title\"]");
 	
 	
 	

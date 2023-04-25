@@ -21,10 +21,12 @@ public class Curs17Exercitiu1 extends BaseTest {
 		app.click(app.menu.loginLink);		
 		app.login.loginInApp(user, pass);
 		
+//		WebElement searchField = driver.findElement(app.search.searchField);
+//		
 //		Actions action = new Actions(driver);
 //		action
-//			.moveToElement(app.search.searchField)
-//			.sendKeys(app.search.searchField, "pretzel")
+//			.moveToElement(searchField)
+//			.sendKeys(searchField, "pretzel")
 //			.sendKeys(Keys.ENTER)			
 //			.perform();
 		
@@ -35,27 +37,27 @@ public class Curs17Exercitiu1 extends BaseTest {
 		
 		app.click(app.product.addToCartButton);
 		
-		assertTrue(app.product.somethingIsDisplayed(app.product.addedToCartSuccess));
+		assertTrue(app.product.elementIsDisplayed(app.product.addedToCartSuccess));
 		//assertTrue(app.product.addedToCartSuccess.getText().contains("“Rold Gold Tiny Twists Pretzels” has been added to your cart."));
 		
 		app.click(app.product.viewCartButton);
 		
 		app.click(app.cart.qtyIncrease);
 		
-		assertTrue(app.cart.somethingIsDisplayed(app.cart.totalPrice));
+		assertTrue(app.cart.elementIsDisplayed(app.cart.totalPrice));
 		//assertEquals(driver.get(), "5.98");
 		//assertTrue(app.cart.totalPrice.getText().contains("5.98"));
 		
 		app.click(app.cart.proceedToCheckOutButton);
 		
 		app.click(app.checkout.checkboxTerms);
-		//assertTrue(app.checkout.checkboxTerms.isSelected());
+		assertTrue(((WebElement) app.checkout.checkboxTerms).isSelected());
 		
 		app.click(app.checkout.placeOrderButton);
 		
-		assertTrue(app.orderReceieved.somethingIsDisplayed(app.orderReceieved.orderRecievedSuccess));
+		assertTrue(app.orderReceieved.elementIsDisplayed(app.orderReceieved.orderRecievedSuccess));
 		
-		assertTrue(app.orderReceieved.somethingIsDisplayed(app.orderReceieved.orderNumber));
+		assertTrue(app.orderReceieved.elementIsDisplayed(app.orderReceieved.orderNumber));
 		
 	}
 	

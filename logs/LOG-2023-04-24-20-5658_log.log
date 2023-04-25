@@ -1,0 +1,13 @@
+20:56:58.616 [main] INFO  utils.Log - Browser parameter is : EDGE
+20:57:01.435 [main] INFO  utils.Log - EDGE =--> Thread.id = 1
+20:57:04.568 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:57:04.568 [main] INFO  utils.Log - Started test :LoginTest - validLoginTest
+20:57:04.568 [main] INFO  utils.Log - LoginTest
+20:57:04.568 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:57:04.569 [main] INFO  utils.Log - Start time :2023.04.24.20.57.04
+20:57:04.569 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:57:06.347 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:57:06.347 [main] INFO  utils.Log - Passed test :validLoginTest
+20:57:06.349 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:57:06.349 [main] INFO  utils.Log - End time :2023.04.24.20.57.06
+20:57:06.349 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
