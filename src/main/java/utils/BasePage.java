@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import pages.BlogPage;
 import pages.CartPage;
+import pages.CategoriesPage;
 import pages.CheckoutPage;
 import pages.LoginPage;
 import pages.MenuPage;
@@ -11,6 +12,7 @@ import pages.OrderReceivedPage;
 import pages.PostPage;
 import pages.ProductPage;
 import pages.SearchPage;
+import pages.WishlistPage;
 
 public class BasePage extends SeleniumWrappers {
 
@@ -27,6 +29,8 @@ public class BasePage extends SeleniumWrappers {
 	public OrderReceivedPage orderReceieved =  new OrderReceivedPage(driver);
 	public BlogPage blog =  new BlogPage(driver);
 	public PostPage post =  new PostPage(driver);
+	public CategoriesPage categories =  new CategoriesPage(driver);
+	public WishlistPage wishlist =  new WishlistPage(driver);
 	
 
 }

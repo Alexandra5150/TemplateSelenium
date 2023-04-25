@@ -13,6 +13,7 @@ public class MenuPage extends SeleniumWrappers {
 
 	public By loginLink = By.linkText("My account");
 	public By blogLink = By.xpath("(//a[contains(text(), \"Blog\")])[2]");
+	public By wishlist = By.cssSelector("a[href=\"https://keyfood.ro/wishlist/\"]");
 	
 	
 }
