@@ -10,6 +10,8 @@
    <parameter name ="pass" value="customer@123"> </parameter>  
    <parameter name ="appUrl" value="http://keyfood.ro"> </parameter> 
 	
+	
+	<!--
   <test name="LoginEdge" >
   
    <parameter name ="browser" value="edge"> </parameter> 
@@ -17,12 +19,25 @@
        <class name="tests.LoginTest" />
     </classes>
   </test>
-<test name="LoginFirefox" >
+  
+  -->
+  
+	<test name="LoginFirefox" >
   
    <parameter name ="browser" value="firefox"> </parameter> 
     <classes>
        <class name="tests.LoginTest" />
     </classes>
   </test>
+  
+  
+  <test name="LoginChrome" >
+  
+   <parameter name ="browser" value="chrome"> </parameter> 
+    <classes>
+       <class name="tests.LoginTest" />
+    </classes>
+  </test>
+  
   
 </suite>

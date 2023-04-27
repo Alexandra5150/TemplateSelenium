@@ -50,11 +50,11 @@ public class Driver {
 	public static FirefoxOptions getFirefoxOptions () {
 		
 		FirefoxBinary firefoxBinary = new FirefoxBinary();
-//		firefoxBinary.addCommandLineOptions("--headless");
+		//firefoxBinary.addCommandLineOptions("--headless");
 		
 		FirefoxOptions firefoxOptions = new FirefoxOptions();
 		firefoxOptions.setBinary(firefoxBinary);
-		//firefoxOptions.addArguments("--headless");
+		firefoxOptions.addArguments("--headless");
 		
 		return firefoxOptions;
 	}
@@ -63,8 +63,8 @@ public class Driver {
 	public static ChromeOptions getChromeOptions () {
 		
 		ChromeOptions chromeOptions = new ChromeOptions();
-//		chromeOptions.addArguments("--headless");
-//		chromeOptions.addArguments("--window-size=1580, 1280");
+		chromeOptions.addArguments("--headless");
+		chromeOptions.addArguments("--window-size=1580, 1280");
 		
 		return chromeOptions;
 	}
