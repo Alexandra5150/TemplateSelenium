@@ -2,10 +2,14 @@ package tests;
 
 import static org.testng.Assert.assertTrue;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -33,7 +37,7 @@ public class Curs17Exercitiu1 extends BaseTest {
 		//app.sendKeys(app.search.searchField, "pretzel");
 		app.search.searchField("pretzel");
 		
-		app.click(app.search.pretzelBook);
+		//app.click(app.search.pretzelBook);
 		
 		app.click(app.product.addToCartButton);
 		
@@ -50,8 +54,11 @@ public class Curs17Exercitiu1 extends BaseTest {
 		
 		app.click(app.cart.proceedToCheckOutButton);
 		
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.stalenessOf(app.getElement(app.checkout.checkboxTerms) ));
+		
 		app.click(app.checkout.checkboxTerms);
-		assertTrue(((WebElement) app.checkout.checkboxTerms).isSelected());
+		assertTrue(app.getElement(app.checkout.checkboxTerms).isSelected());
 		
 		app.click(app.checkout.placeOrderButton);
 		
